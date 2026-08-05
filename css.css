@@ -49,3 +49,26 @@
   border-radius: 5px;
 }
 
+/* ============================================
+   PROYECTO 4: ARCADE PARTY (Púrpura/Neón)
+   ============================================ */
+.project-arcade .project-image {
+    background: linear-gradient(135deg, #1a0a2e, #2d1b4e);
+    color: #a78bfa;  /* Púrpura claro */
+}
+.project-arcade .project-title {
+    background: linear-gradient(135deg, var(--text-primary), #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.project-arcade .btn-demo {
+    background: linear-gradient(135deg, #7c3aed, #6d28d9);  /* Púrpura */
+}
+.project-arcade .btn-demo:hover {
+    box-shadow: 0 4px 20px rgba(124, 58, 237, 0.3);
+}
+.project-arcade .project-badge {
+    color: #a78bfa;  /* Púrpura claro */
+    border-color: rgba(124, 58, 237, 0.2);
+}
